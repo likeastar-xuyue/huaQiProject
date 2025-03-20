@@ -11,11 +11,18 @@
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@ceramicnetwork/http-client": "^6.4.0",
     "@chainlink/env-enc": "^1.0.5",
+    "@composedb/client": "^0.7.1",
+    "@truffle/contract": "^4.6.31",
     "@truffle/hdwallet-provider": "^2.1.15",
     "@vitejs/plugin-vue": "^5.2.1",
+    "dids": "^5.0.3",
     "dotenv": "^16.4.7",
     "ganache": "^7.9.2",
+    "key-did-provider-ed25519": "^4.0.2",
+    "key-did-resolver": "^4.0.0",
+    "prompt-sync": "^4.2.0",
     "truffle": "^5.11.5",
     "vite": "^6.2.1",
     "vite-plugin-vue-devtools": "^7.7.2"

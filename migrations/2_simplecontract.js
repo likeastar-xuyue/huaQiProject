@@ -1,5 +1,5 @@
-const sc = artifacts.require("HelloWorld");
+const HelloWorld = artifacts.require("HelloWorld");
 
 module.exports = function(deployer) {
-  deployer.deploy(sc);
+  deployer.deploy(HelloWorld);
 };

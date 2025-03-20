@@ -1,0 +1,7 @@
+type CreditScore @createModel(accountRelation: SINGLE, description: "User credit score record") {
+  owner: DID! @documentAccount 
+  score: Int! @string(maxLength: 100)
+  grade: String! @string(maxLength: 10)
+  bankBAccess: Boolean!
+  bankCAccess: Boolean!
+}
